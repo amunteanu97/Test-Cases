@@ -1,96 +1,76 @@
 # Test-Cases
 
 
-Title:
--
+**Title:**
 Test login with correct credentials
 
-Description: 
--
+**Description:**
 Test the login by using correct credentials.
 
-Steps to reproduce : 
--
+**Steps to reproduce :**
 1. Go to site.com/login
 2. Add correct user/pass
 3. Observe if user can login
 
-Expected Result:
--
+**Expected Result:**
 User should be able to login.
 
-Test Data: 
--
-User: test
-Pass: 123
+**Test Data:**
+User: test & Pass: 123
 
+.............................
 
-
-Title:
--
+**Title:**
 Test login must not go with wrong credentials
 
-Description: 
--
+**Description:**
 Test the login by using incorect credentials
 
-Steps to reproduce : 
--
+**Steps to reproduce :**
 1. Go to site.com/login
 2. Add correct user/pass
 3. Press the login button
 
-Expected Result:
--
+**Expected Result:**
 User cannot log in
 
-Test Data: 
--
-User: incorrect
-Pass: incorrect
+**Test Data:**
+User: incorrect & Pass: incorrect
 
+..............................
 
-Title:
--
+**Title:**
 Test search must bring you search results
 
-Description: 
--
+**Description:**
 Testing search looking for a specific product
 
-Steps to reproduce : 
--
+**Steps to reproduce :**
 1. Go to site.com/login
 2. Add specific product
 3. Press the search button
 
-Expected Result:
--
+**Expected Result:**
 Show wanted product
 
-Test Data: 
--
-Test:123
+**Test Data:**
+Test:Phone
 
+................................
 
-Title:
--
+**Title:**
 Test login must not go without credentials
 
-Description: 
--
+**Description:**
 Test the login without credentials
 
-Steps to reproduce : 
--
+**Steps to reproduce :**
 1. Go to site.com/login
 2. Do not add credentials
 3. Press the login button
 
-Expected Result:
--
+**Expected Result:**
 Display error or message for entering wrong credentials
 
-Test Data: 
--
+**Test Data:**
 empty user/pass
